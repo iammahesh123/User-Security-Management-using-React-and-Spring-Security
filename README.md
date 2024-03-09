@@ -8,11 +8,11 @@ User security management is a crucial aspect of any web application. This projec
 
 ## Features
 
-- User signup: Allows new users to create an account.
-- User signin: Allows registered users to sign in to their accounts.
-- Authentication: Secure authentication using JSON Web Tokens (JWT).
-- Authorization: Role-based access control (RBAC) to restrict access to certain resources.
-- Simple Dashboard: A basic dashboard interface for authenticated users.
+- `User signup`: Allows new users to create an account.
+- `User signin`: Allows registered users to sign in to their accounts.
+- `Authentication`: Secure authentication using JSON Web Tokens (JWT).
+- `Authorization`: Role-based access control (RBAC) to restrict access to certain resources.
+- `Simple Dashboard`: A basic dashboard interface for authenticated users.
 
 ## Project Structure
 
@@ -26,24 +26,27 @@ User security management is a crucial aspect of any web application. This projec
 1. Navigate to the frontend directory:
 
 ```bash
-cd frontend
+cd frontend-react
 ```
 2. Install dependencies:
-bash
+```bash
 npm install
+```
 3. Start the frontend server:
-bash
+```bash
 npm start
+```
 4. Access the frontend application in your web browser: http://localhost:3000
 ## Backend (Spring Security)
 ### Setup
 1. Navigate to the backend directory:
-bash
-Copy code
-cd backend
+```bash
+cd backend-spring
+```
 2. Start the backend server:
-bash
+```bash
 mvn spring-boot:run
+```
 3. The backend server will run on http://localhost:8080
 ## Usage
 - Sign up for a new account using the signup page.
